@@ -1,0 +1,13 @@
+Fonts:
+Patua One - heading, nav
+Overpass Mono - text
+
+Colors:
+#18f281, light green - nav, apps links
+#fffaef, white - header, footer
+#0b0d0e, black - header, footer
+#8533d7, purple - main bg
+#f6feaa, cream - apps, team, contact text
+#41ccc4, aqua - apps h2
+#ead637, yellow - team h2
+#f3747b, rose - contact h2

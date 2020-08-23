@@ -1,0 +1,304 @@
+html {
+    height: 100%;
+}
+
+body {
+    margin: 0;
+    font-family: 'Overpass Mono', monospace;
+    background-color: #8533d7;
+}
+
+h1, h2, h3, h4, h5 {
+    font-family: 'Patua One', cursive;
+    font-weight: normal;
+}
+
+h1 {
+    font-size: 150px;
+    margin: 0;
+}
+
+h2 {
+    font-size: 120px;
+}
+
+h3 {
+    font-size: 50px;
+}
+
+h4 {
+    font-size: 32px;
+    background-color: #75e3dd;
+    display: inline-block;
+    margin: 0;
+    padding: 4px;
+}
+
+p {
+	line-height: 145%;
+}
+
+img {
+    max-width: 100%;
+}
+
+/* Nav */
+nav {
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    right: 15px;
+    font-family: 'Patua One', cursive;
+    font-size: 28px;
+}
+
+.navigation {
+    text-align: center;
+}
+
+.navigation li {
+    display: inline-block;
+    margin: 0 15px;
+}
+
+.navigation li a {
+    color: #18f281;
+    text-decoration: none;
+}
+
+/* Header */
+.left-col, .right-col {
+    text-align: center;
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.left-col {
+    background-color: #fffaef;
+    color: black;
+}
+
+.right-col {
+    background-color: #0b0d0e;
+    color: #fffaef;
+}
+
+.header-img {
+    width: 95%;
+}
+
+.top-container {
+    width: 500px;
+    margin: 0 auto;
+}
+
+.top-container p {
+    margin: 10px 0 0 0;
+}
+
+/* Main */
+.scroll {
+    font-weight: bold;
+    text-align: center;
+    margin: 25px 0 0 0;
+}
+
+/* Apps */
+.apps h2 {
+    color: #41ccc4;
+    padding: 0 0 50px 0;
+}
+
+.apps a {
+    letter-spacing: 2px;
+    color: #18f281;
+    font-size: 18px;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.apps-img {
+    position: relative;
+    width: 100%;
+}
+
+.apps h4 {
+    position: absolute;
+    z-index: 1;
+    top: -20px;
+}
+
+.apps h4.right-aligned {
+    right: 0;
+}
+
+.app-text {
+    margin: 10px 0 0 0;
+    color: #f6feaa;
+}
+
+.extra-gutters {
+    padding: 0 60px;
+}
+
+.right-aligned {
+    text-align: right;
+}
+
+/* Team */
+.team h3 {
+    color: #f6feaa;
+    margin: 0 0 50px 0;
+    line-height: 100%;
+    width: 100%;
+}
+
+.team h2 {
+    color: #ead637;
+    margin: 25px 0 0 0;
+}
+
+.team p {
+    color: #F6FEAA;
+}
+
+.img-margin {
+    margin-bottom: 60px;
+}
+
+/* Contact */
+.contact {
+    color: #f6feaa;
+}
+
+.contact h2 {
+    color: #f3747b;
+}
+
+.contact img {
+    max-height: 315px;
+}
+
+#email {
+    color: #f6feaa;
+    text-decoration: none;
+}
+
+/* Footer */
+footer {
+    background-color: #0b0d0e;
+    min-height: 220px;
+    background-image: url(../img/socialmedia.svg);
+    background-repeat: no-repeat;
+    background-size: 60%;
+    background-position: center;
+    color: #fffaef;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 60px 0 0 0;
+}
+
+.footer-text {
+    margin: 15px 0 0 0;
+}
+
+.social-icon {
+    height: 60px;
+    margin: 10px 20px;
+}
+
+.social-icons-container {
+    text-align: center;
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991px) {
+    #hello h1 {
+        font-size: 90px;
+    }
+
+    #hello p {
+        font-size: 15px;
+        padding: 0 5px;
+    }
+
+    .apps h3 {
+        font-size: 30px;
+    }
+
+    .apps p, .team p {
+        font-size: 15px;
+    }
+
+    .apps a {
+        font-size: 18px;
+    }
+
+    .app-text {
+        padding: 15px 30px;
+    }
+
+    #story-p3 {
+        display: none;
+    }
+
+    #contact-img-left, #contact-img-right {
+        visibility: hidden;
+    }
+
+    footer {
+        margin: 0;
+    }
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (max-width: 767px) {
+
+    .right-col {
+        visibility: collapse;
+    }
+
+    .column {
+        width: 100%;
+    }
+
+    .apps h3 {
+        font-size: 25px;
+    }
+
+    .apps p, .team p {
+        font-size: 15px;
+    }
+
+    .apps a {
+        font-size: 18px;
+    }
+
+    .app-text {
+        padding: 15px 30px;
+    }
+
+    .no-gutters {
+        margin: 0 0 30px 0;
+    }
+
+    #story-p3 {
+        display: none;
+    }
+
+    #contact {
+        margin: -30px 0 -15px 0;
+    }
+
+    #contact-img-left, #contact-img-right {
+        visibility: hidden;
+    }
+
+    #location {
+        font-size: 14px;
+    }
+
