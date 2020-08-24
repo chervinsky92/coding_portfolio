@@ -168,6 +168,10 @@ nav {
     margin-bottom: 60px;
 }
 
+#story-p3 {
+    color: #F6FEAA;
+}
+
 /* Contact */
 .contact {
     color: #f6feaa;
@@ -190,7 +194,6 @@ nav {
 footer {
     background-color: #0b0d0e;
     min-height: 220px;
-    background-image: url(../img/socialmedia.svg);
     background-repeat: no-repeat;
     background-size: 60%;
     background-position: center;
@@ -244,6 +247,8 @@ footer {
 
     #story-p3 {
         display: none;
+        line-height: 145%;
+        font-family: 'Overpass Mono', monospace;
     }
 
     #contact-img-left, #contact-img-right {
@@ -301,4 +306,4 @@ footer {
     #location {
         font-size: 14px;
     }
-
+}
